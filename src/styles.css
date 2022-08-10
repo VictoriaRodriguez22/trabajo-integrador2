@@ -1,0 +1,54 @@
+.color-barra {
+  background-color: lightblue;
+}
+
+.color-letra {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+}
+.nav-link {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 300px; /* no me doy cuenta de como poner el box del titulo que quede siempre centrado */
+  color: chocolate;
+  width: 60%;
+  height: 50px;
+  border-style: groove;
+  border-color: 20px rgb(0, 26, 255);
+  background-color: khaki;
+}
+div {
+  background-color: rgb(73, 73, 224);
+}
+h2 {
+  text-align: center;
+  color: gold;
+}
+P {
+  /* border-style: double;
+  border-color: brown;
+  border: 10px;
+  background-color: rgb(137, 160, 168)*/
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: rgb(193, 196, 60);
+  font-style: oblique;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+#primero,
+#tercero {
+  border: 5px dotted black;
+}
+
+#segundo {
+  border-top: 5px dotted black;
+  border-bottom: 5px dotted black;
+}
