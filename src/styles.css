@@ -52,3 +52,42 @@ P {
   border-top: 5px dotted black;
   border-bottom: 5px dotted black;
 }
+
+#nombre-principal {
+  border: 10px red solid;
+  text-align: center;
+  color: red;
+  width: 50%;
+  height: 80px;
+  margin-left: 25%;
+  background-color: white;
+}
+
+#contenido {
+  text-align: center;
+  background-color: rgb(197, 187, 187);
+  margin-top: 20px;
+}
+#total-diseño {
+  text-align: center;
+  background-color: rgb(158, 128, 128);
+  margin-top: 20px;
+  width: 60%;
+  height: 35px;
+  margin-left: 25%;
+}
+
+#lista {
+  color: red;
+  font-style: unset;
+  margin-left: 10px;
+  background-color: rgb(253, 213, 213);
+}
+
+#vaciar {
+  margin-top: 15px;
+  align-self: auto;
+}
+#carrito {
+  background-color: rgb(218, 168, 168);
+}

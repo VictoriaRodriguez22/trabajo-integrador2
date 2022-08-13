@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="src/styles.css" />
   </head>
-  <body>
+  <body id="carrito">
     <h1 id="nombre-principal">Carrito de Compras</h1>
     <div id="contenido">
       <br />
@@ -26,12 +26,16 @@
       <button id="btn-descuento">Hay Descuento</button>
     </div>
 
-    <p>Lista de Compras</p>
+    <p id="lista">Su Lista de Compras:</p>
     <ul id="lista"></ul>
 
-    <h5>Total de la Compra hasta Aquí es de: <scan id="total"></scan></h5>
+    <h5 id="total-diseño">
+      Total de la Compra hasta Aquí es de: <scan id="total"></scan>
+    </h5>
 
-    <h3>Total final de su compra es de: <scan id="total-final"></scan></h3>
+    <h3 id="total-diseño">
+      Total final de su compra es de: <scan id="total-final"></scan>
+    </h3>
     <button id="vaciar">Vaciar Carrito</button>
 
     <script src="src/index.ts"></script>
